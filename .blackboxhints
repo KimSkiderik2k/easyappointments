@@ -1,0 +1,37 @@
+# Project: EasyAppointments – Blackbox autonomy test
+
+CONTEXT
+- This folder is a local copy/fork of the Easy!Appointments booking system.
+- It is a sandbox for testing Blackbox AI autonomous coding. No real users, no secrets.
+- You are allowed to refactor, reorganise files, and add tooling (e.g. Docker) as needed.
+
+PRIMARY GOAL
+- Turn this repository into a fully working appointment booking system on my Mac.
+
+REQUIREMENTS
+- I must be able to start EVERYTHING with ONE command from the project root, e.g.:
+  - `docker compose up`
+  - or a single script/command you define.
+- Database schema must be created and migrations applied automatically.
+- Seed test data and create a default admin login. Document credentials clearly.
+- Update README.md with a clear "Local development with Blackbox" section:
+  - prerequisites (Docker, PHP, Node, etc.)
+  - exact run command(s)
+  - how to log in as admin.
+- Create AUTONOMY_REPORT.md:
+  - what you changed,
+  - important design decisions,
+  - known limitations and TODOs.
+
+CONSTRAINTS
+- Do NOT add external paid SaaS or new third-party accounts.
+- Do NOT hardcode real API keys or secrets. Use .env and .env.example with placeholders.
+- Prefer using the technologies already in the project (PHP/MySQL/etc.) unless you have a very strong reason.
+
+WORKING STYLE
+- Work autonomously. Do NOT ask the user questions unless absolutely necessary to make progress.
+- When in doubt, make a reasonable decision and document it in AUTONOMY_REPORT.md.
+- Use git best practices:
+  - small, coherent commits,
+  - sensible commit messages,
+  - do not force-push to main.
